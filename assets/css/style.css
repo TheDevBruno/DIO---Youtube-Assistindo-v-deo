@@ -1,0 +1,151 @@
+*{
+    margin: 0;
+}
+:root{
+    --background-principal: #F9F9F9;
+    --color-details: #CCCCCC;
+    --text-principal: #000000;
+    --text-secundary: #515151;
+}
+.container{
+    background: var(--color-details);
+}
+.menu{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 1440px;
+    height: 56px;
+    padding: 0px 24px ;
+}
+.left-menu{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 146px;
+    height: 24px;
+}
+.logo-menu{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 146px;
+    height: 24px;
+}
+
+.center-menu{
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    width: 404px;
+    height: 32px;
+    border: 1px solid var(--color-details);
+}
+#search{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 57px;
+    height: 32px;
+    border: 1px solid var(--color-details);
+}
+.right-menu{    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 130px;
+    height: 34px;
+    gap: 24px;
+}
+.watching-video{
+    width: Hug (952px);
+    height: Hug (746px);
+    top: 84px;
+    left: 75px;
+    gap: 16px;
+}
+.content{
+    display: grid;
+    gap: 10px;
+    grid-template-columns: 1fr 1fr;  
+}
+#playedvideo{
+    width: 952px;
+    width: 952px;
+}
+#title-video{
+    font-family: roboto;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 23.44px;
+}
+.video-actions{
+    display: flex;
+	flex-direction: row;
+    align-items: center;
+}
+
+.actions-played{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: Hug (902px);
+    height: Hug (42px);
+    gap: 42px;
+}
+.info-video h2{
+    font-size: 16px;
+    line-height: 16.41px;
+}
+.descripition-video p{
+    width: 510px;
+    height: 64px;
+    font-size: 16px;
+    line-height: 16.41px;
+}
+.sidebar{
+    width: 160px;
+    height: 938px;
+    gap: 32px;
+
+}
+.video{
+    width: 190px;
+    height: 90px;
+    margin-bottom: 16px;
+}
+.video .infos{
+    width: 160px;
+    height: 86px;
+    left: 176px;
+    gap: 16px;
+    margin-left: 8px;
+}
+
+.video .thumb-videos{
+    width: 160px;
+    height: 90px;
+    gap: 16px;
+}
+
+.video .title-videos{
+    font-family: roboto;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 16.41px;
+    gap: 16px;  
+}
+.video .channel-videos{
+    font-family: roboto;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 14.06px;   
+}
+
+.video .info-videos{
+    font-family: roboto;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14.06px;   
+}
